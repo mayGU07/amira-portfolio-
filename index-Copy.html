@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Amira Machghoul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <!-- Background animé interactif -->
+    <div class="background-animation" id="bgAnimation"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#vie-associative">Vie Associative</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <!-- Section Hero -->
+    <section class="hero photo-section">
+        <div id="accueil" class="hero-container">
+            <div class="hero-content">
+                <!-- Nom animé -->
+                <div class="animated-name-container">
+                    <h1 class="animated-name" id="animatedName">
+                        <span class="name-part">MACHGHOUL</span>
+                        <span class="name-part">Amira</span>
+                        <span class="name-part"></span>
+                    </h1>
+                </div>
+                <p>Élève ingénieur en électronique industrielle</p>
+                <a class="cta" href="#contact" role="button" aria-label="Contactez-moi">Contactez-moi</a>
+            </div>
+
+            <div class="hero-image">
+                <!-- Image avec cadre transparent -->
+                <div class="image-frame">
+                    <div class="frame-border"></div>
+                    <img src="images\photo.png" alt="amira" />
+                    <div class="frame-reflection"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Modèle 3D -->
+    <section id="modele3d" class="model-section">
+        <div class="model-container" id="model-container">
+            <!-- Le modèle 3D sera affiché ici -->
+        </div>
+    </section>
+    
+    <!-- Section Expérience -->
+    <section id="experience">
+        <div class="section-title">
+            <h2>Mon Expérience</h2>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h3>Technicienne en Conception Électronique</h3>
+                <p>ElectroLab Industries • 2024 - Présent</p>
+                <p>Conception de circuits électroniques analogiques et numériques avec Préoteus. Ralisation et test de cartes PCB pour systèmes embarqués..</p>
+            </div>
+            <div class="card">
+                <h3>Assistant en Automatisation Industrielle</h3>
+                <p>Automatech Solutions • 2023 – 2024</p>
+                <p>Programmation d’automates Siemens (TIA Portal) et Arduino pour le contrôle de processus industriels.</p>
+            </div>
+            <div class="card">
+                <h3>Stagiaire en Maintenance Électronique</h3>
+                <p>TechnoFactory • 2022 – 2023</p>
+                <p>Diagnostic et réparation de systèmes électroniques industriels.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section Compétences -->
+    <section id="competences">
+        <div class="section-title">
+            <h2>Mes Compétences</h2>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h3>Développement Web</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML/CSS</span>
+                        <span>25%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 20%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>javascript</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 20%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>react</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 35%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>IoT et systémes embarqués</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Microcontroleurs et capteurs</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>communication sans fils</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 55%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Systémes embarqés et automatisation </span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 40%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>conception élèctronique</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>c/c++</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>python</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 55%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Prototypage</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 40%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section Vie Associative - Version Tableau -->
+    <section id="vie-associative">
+        <div class="section-title">
+            <h2>Vie Associative</h2>
+        </div>
+        <div class="table-container">
+            <table class="associative-table">
+                <thead>
+                    <tr>
+                        <th>Activité</th>
+                        <th>Organisation</th>
+                        <th>Période</th>
+                        <th>Rôle & Responsabilités</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>membre actif</td>
+                        <td>croissant rouge tunisien</td>
+                        <td>2019 - 2021</td>
+                        <td>participation à des actes de charité</td>
+                    </tr>
+                    <tr>
+                        <td>Membre Actif</td>
+                        <td>JEENISo</td>
+                        <td>2025 - present</td>
+                        <td>Membre junior et membre de la BU3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contactez-moi</h2>
+        </div>
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Import Maps et Scripts -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@latest/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@latest/examples/jsm/"
+            }
+        }
+    </script>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
